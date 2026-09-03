@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusão de Conta - Central Lava Jato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #04BBFC;
+            border-bottom: 2px solid #04BBFC;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #04BBFC;
+            margin-top: 30px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #04BBFC;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0398d1;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔐 Solicitação de Exclusão de Conta</h1>
+    <p><strong>App:</strong> Central Lava Jato</p>
+    <p><strong>Desenvolvedor:</strong> Samuel Marques de Araújo Brito</p>
+
+    <h2>📋 Como solicitar a exclusão da sua conta</h2>
+    <p>Para solicitar a exclusão da sua conta e de todos os dados associados, siga as etapas abaixo:</p>
+
+    <ol>
+        <li><strong>Envie um e-mail</strong> para <a href="mailto:centrallavajatoapp@gmail.com?subject=Solicitação de Exclusão de Conta - Central Lava Jato">centrallavajatoapp@gmail.com</a>.</li>
+        <li>No assunto, escreva: <strong>"Solicitação de Exclusão de Conta - Central Lava Jato"</strong>.</li>
+        <li>No corpo do e-mail, informe:
+            <ul>
+                <li><strong>Nome completo</strong> do titular da conta.</li>
+                <li><strong>Telefone ou e-mail</strong> utilizado no cadastro.</li>
+                <li><strong>Nome da empresa</strong> (se for dono) ou <strong>nome do funcionário</strong>.</li>
+            </ul>
+        </li>
+        <li>Aguarde a confirmação. Processamos sua solicitação em até <strong>5 dias úteis</strong>.</li>
+    </ol>
+
+    <h2>🗑️ Quais dados são excluídos?</h2>
+    <p>Ao solicitar a exclusão da sua conta, os seguintes dados serão <strong>totalmente removidos</strong> dos nossos servidores (Supabase):</p>
+    <ul>
+        <li><strong>Dados da conta:</strong> Nome, telefone, e-mail, senha (hash).</li>
+        <li><strong>Dados da empresa (se for dono):</strong> Nome, CNPJ, endereço, configurações, plano, histórico de pagamentos.</li>
+        <li><strong>Dados operacionais:</strong> Todas as Ordens de Serviço, clientes, veículos, orçamentos, agendamentos, transações financeiras e catálogo de serviços vinculados ao seu tenant.</li>
+        <li><strong>Dados de funcionários:</strong> Perfis de todos os funcionários cadastrados sob sua empresa.</li>
+    </ul>
+
+    <h2>⏳ Período de retenção</h2>
+    <p>Após a confirmação da exclusão, todos os dados são removidos <strong>imediatamente</strong> do banco de dados ativo. Cópias de segurança são mantidas por até <strong>30 dias</strong> para recuperação em caso de solicitação indevida, mas são sobrescritas automaticamente após esse período.</p>
+
+    <h2>📧 Dados mantidos</h2>
+    <p>Nenhum dado pessoal é mantido após a exclusão da conta. Apenas registros anônimos de <strong>logs de acesso</strong> (sem identificação pessoal) podem ser preservados por motivos de segurança por até <strong>180 dias</strong>.</p>
+
+    <h2>📞 Precisa de ajuda?</h2>
+    <p>Entre em contato pelo e-mail: <a href="mailto:centrallavajatoapp@gmail.com">centrallavajatoapp@gmail.com</a></p>
+
+    <a href="mailto:centrallavajatoapp@gmail.com?subject=Solicitação de Exclusão de Conta - Central Lava Jato" class="button">📧 Solicitar Exclusão Agora</a>
+
+    <div class="footer">
+        <p>© 2026 Central Lava Jato - Todos os direitos reservados.</p>
+    </div>
+
+</body>
+</html>
